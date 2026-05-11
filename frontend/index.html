@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+
+        <h1>Realtime Chat</h1>
+
+        <div id="mensagens"></div>
+
+        <input
+            type="text"
+            id="usuario"
+            placeholder="Seu nome"
+        >
+
+        <input
+            type="text"
+            id="mensagem"
+            placeholder="Digite uma mensagem"
+        >
+
+        <button id="enviar">
+            Enviar
+        </button>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.7/signalr.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
